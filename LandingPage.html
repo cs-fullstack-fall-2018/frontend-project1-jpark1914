@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Jordan's Portfolio Landing</title>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
     <link type="text/css" rel="stylesheet" href="LandingStyle.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -15,7 +19,7 @@
 <body>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
+    <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
@@ -35,19 +39,89 @@
 </nav>
 
 <div class="jumbotron">
-    <div class="headers">
+    <div class="header1 animated slideInDown slower">
         <h1>Jordan Parker</h1>
         <h2>Future Dev</h2>
     </div>
-    <div class="image">
-        <img src="images/IMG-0498.JPG" class="img-responsive" id="avatar">
+    <div  class="jumboButtons">
+        <button class="animated slideInLeft slower btn btn-lg"><a href="#">What I Do</a> </button>
+        <button class="animated slideInRight slower btn btn-lg"><a href="#">Contact</a> </button>
     </div>
+</div>
+<!-- Context of what I do section -->
+<div class="first">
+    <div class="container">
+        <h1 class="">What I'm Capable Of</h1>
+        <div class="row">
+            <div class="animated fadeIn slower col-lg-4 col-md-4 col-sm-12 col-xs-12" id="img1">
+                <img src="images/stefan-stefancik-257625-unsplash.jpg" class="img-responsive img2">
+                <figure>
+                    <figcaption>UI/UX Design</figcaption>
+                </figure>
+            </div>
+            <div class="animated fadeIn slower col-lg-4 col-md-4 col-sm-12 col-xs-12" id="img2">
+                <img src="images/greg-rakozy-129733-unsplash.jpg" class="img-responsive img2">
+                <figure>
+                    <figcaption>Front-End</figcaption>
+                </figure>
+            </div>
+            <div class="animated fadeIn slower col-lg-4 col-md-4 col-sm-12 col-xs-12" id="img3">
+                <img src="images/carlos-muza-84523-unsplash.jpg" class="img-responsive img2">
+                <figure>
+                    <figcaption>Back-End</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="animated slower fadeIn">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, aut dolore dolorem enim error est eum facere hic
+                ipsam iste laborum maiores odio pariatur perferendis qui quos repellat, sunt, totam?</p>
+        </div>
+    </div>
+</div>
+
+<div class="third">
+    <span></span>
+</div>
+
+<div class="second">
+    <h1 class="animated slideInLeft slower">What's There to Know About</h1>
+    <div class="container">
+        <div class="animated slower slideInLeft paragraph col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi dolore eaque pariatur porro quisquam
+                vel voluptas. Distinctio illum, in labore libero modi nemo nulla odio recusandae, similique veniam,
+                veritatis.
+            </div>
+            <div>Eaque iste neque veniam. Animi autem beatae cumque debitis dignissimos dolores dolorum eligendi
+                explicabo hic ipsa, ipsam laboriosam molestiae necessitatibus neque obcaecati officia perferendis
+                repellat sequi totam voluptas voluptatibus voluptatum.
+            </div>
+            <div>A asperiores at consectetur corporis excepturi expedita explicabo illo minima molestiae, mollitia neque
+                nisi non nostrum numquam perferendis placeat porro praesentium quam quis quod rem tempore voluptatem!
+                Deserunt, doloremque qui.
+            </div>
+            <div>Dicta natus neque quo? Aliquam aspernatur error hic ipsa omnis, praesentium quam rem! Aliquam at,
+                consectetur debitis delectus dolor eius est et facilis inventore minima non quisquam. Laudantium, porro,
+                rem!
+            </div>
+            <div>A ab culpa cum debitis dolore doloremque eaque esse explicabo facilis incidunt ipsam iure, mollitia
+                nisi nobis tenetur vel voluptate voluptatibus! Asperiores consectetur facilis molestias nobis
+                perspiciatis, praesentium similique voluptates.
+            </div>
+        </div>
+        <div class="img animated slower slideInRight">
+            <img src="images/IMG-0498.JPG" class="img-responsive" id="avatar">
+        </div>
+    </div>
+
 </div>
 
 
 
 
 <!--JavaScript for BootStrap -->
+<!--<script src="landing.js"></script>-->
+
+
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>

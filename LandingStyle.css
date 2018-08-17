@@ -1,14 +1,127 @@
-.jumbotron{
-    background: url(images/alexey-ruban-98473-unsplash.jpg)no-repeat top center fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    padding: 60em 3em;
+body{
+
+}
+/*=====General Use Classes=====
+===============================
+===============================
+ */
+
+.animated.slower{
+    animation-duration: 2s;
 }
 
+/*=============================
+===============================
+===============================
+ */
+
+
+.jumboButtons{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    margin: 0em 4em;
+    margin-top: 6em;
+}
+.header1{
+    text-align: center;
+    color: #f9f1f1;
+    margin-top: 40px;
+}
+.header2{
+    text-align: center;
+    color: #01081a;
+    margin-top: 40px;
+}
 #avatar{
     transform: rotate(90deg);
-    width: 250px;
+    width: 300px;
     height: 250px;
-    border-radius: 50%;
-    : center;
+    position: relative;
+    float: right;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 20%;
+}
+.jumbotron{
+    background: url(images/ben-kolde-408308-unsplash.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    min-height: 700px;
+    padding: 10em 0em;
+}
+.paragraph{
+    margin: 3px;
+    margin-bottom: 8px;
+}
+
+/*==== What I do section====
+ ===========================
+ ===========================*/
+
+
+.container h1{
+    text-align: center;
+    padding-bottom: 3em;
+    margin-top: -2em;
+
+}
+.container.row{
+    padding: 3em 1em;
+    margin: 4em 0em;
+}
+
+.img2{
+    display: inline-block;
+    max-width: auto;
+    max-height: 200px;
+    border-radius: 10%;
+    padding: 3px;
+    margin: 2px 0px;
+}
+.first{
+    margin: 15em 0em;
+}
+.third{
+
+    background: url(images/ben-kolde-403278-unsplash.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    padding-top: 6em;
+    min-height: 700px;
+}
+
+
+#img1.animated{
+    animation-delay: .5s;
+}
+#img2.animated{
+    animation-delay: 1s;
+}
+#img3.animated{
+    animation-delay: 1.5s;
+}
+
+/*======= ABOUT ME==========
+ ===========================
+ ===========================*/
+
+.second{
+    text-align: center;
+}
+.second .container{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.img{
+    display: inline-block;
 }

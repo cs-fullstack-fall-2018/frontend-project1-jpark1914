@@ -7,8 +7,9 @@ body{
  */
 
 .animated.slower{
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
+
 
 /*=============================
 ===============================
@@ -37,16 +38,7 @@ body{
     color: #01081a;
     margin-top: 40px;
 }
-#avatar{
-    transform: rotate(90deg);
-    width: 300px;
-    height: 250px;
-    position: relative;
-    float: right;
-    margin: 10px;
-    padding: 2px;
-    border-radius: 20%;
-}
+
 .jumbotron{
     background: url(images/ben-kolde-408308-unsplash.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
@@ -68,9 +60,7 @@ body{
 
 .container h1{
     text-align: center;
-    padding-bottom: 3em;
-    margin-top: -2em;
-
+    margin-bottom: 1em;
 }
 .container.row{
     padding: 3em 1em;
@@ -101,13 +91,13 @@ body{
 
 
 #img1.animated{
-    animation-delay: .5s;
+    animation-delay: 1.5s;
 }
 #img2.animated{
-    animation-delay: 1s;
+    animation-delay: 2.0s;
 }
 #img3.animated{
-    animation-delay: 1.5s;
+    animation-delay: 2.5s;
 }
 
 /*======= ABOUT ME==========
@@ -124,4 +114,13 @@ body{
 
 .img{
     display: inline-block;
+}
+#avatar{
+    width: 300px;
+    height: 250px;
+    position: relative;
+    float: right;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 20%;
 }

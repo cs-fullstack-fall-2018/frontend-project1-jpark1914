@@ -1,6 +1,12 @@
+console.log("test");
 
-//
-// $('.second h1').on('focus', function () {
-//     $("#avatar").attr("hidden","false");
-//     $("#goofyFace").toggleClass("img animated slower slideInRight");
-// });
+$('.jumbotron').on('mouseenter', function () {
+    $('#img1').addClass('animated slower fadeIn');
+    $('#img2').addClass('animated slower fadeIn');
+    $('#img3').addClass('animated slower fadeIn');
+});
+
+$('.third').on('mouseenter', function () {
+    $('.img #avatar').addClass('animated slower slideInRight');
+    $('.second .container').addClass('animated slower slideInLeft');
+});
